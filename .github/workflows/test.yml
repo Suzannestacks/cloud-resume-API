@@ -20,4 +20,3 @@ jobs:
           --table-name Resumes \
           --item file://resume.json \
           --region ${{ secrets.AWS_REGION }}
-          --debug
