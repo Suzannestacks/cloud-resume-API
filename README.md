@@ -30,3 +30,9 @@ This project illustrates a serverless architecture for a Resume API utilizing AW
    - Incorporate an additional step in your GitHub Actions workflow to upload JSON data to DynamoDB. This ensures that the database is updated with the latest resume information as part of the continuous deployment process.
 4. Deploy API:
    - Verify that your API Gateway and Lambda function are correctly deployed and properly linked. This should be managed through your Terraform configuration, with updates applied via Terraform Cloud.
+  
+### API ENDPOINT
+```
+https://lfhrbjrd0b.execute-api.us-east-1.amazonaws.com/dev
+```
+
