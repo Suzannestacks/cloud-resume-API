@@ -18,5 +18,5 @@ jobs:
         run: |
           aws dynamodb put-item \
           --table-name Resumes \
-          --item file://Resume.json \
+          --item file://resume.json \
           --region ${{ secrets.AWS_REGION }}
