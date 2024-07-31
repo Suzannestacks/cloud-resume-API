@@ -4,7 +4,7 @@ terraform {
     organization = "stacks213"
 
     workspaces {
-      name = "terraform-github-actions"
+      name = "cloud-resume-API"
     }
   }
 }
