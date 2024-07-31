@@ -1,0 +1,82 @@
+{
+  "Item": {
+    "id": {"S": "1"},
+    "basics": {
+      "M": {
+        "name": {"S": "Susan Ngina"},
+        "label": {"S": "Web Development"},
+        "email": {"S": "nginasusan67@gmail.com"},
+        "phone": {"S": "(07) 12119716"},
+        "summary": {"S": "A web designer with Django and Python experience, certified AWS Cloud Practitioner,and AICE ALX certified. My expertise spans digital marketing, UiPath, graphic design, and data entry. I am proficient in creating engaging content, managing dynamic social media platforms, and providing insights that enhance business decisions. I also possess strong communication skills, attention to detail, integrity, and a good work ethic"},
+        "location": {
+          "M": {
+            "address": {"S": "Moi avenue street"},
+            "postalCode": {"S": "KE 30100"},
+            "city": {"S": "Nairobi"},
+            "countryCode": {"S": "KE"},
+            "region": {"S": "Nairobi"}
+          }
+        }
+      }
+    },
+    "work": {
+      "L": [
+        {
+          "M": {
+            "name": {"S": "Celeribyte Investment"},
+            "position": {"S": "Digital Marketing Specialist"},
+            "startDate": {"S": "2023-6"},
+            "endDate": {"S": "2023-12"},
+            "highlights": {
+              "L": [
+                {"S": "Managing the company's blog and other social media channels"},
+                {"S": "Creating engaging content that resonates with our target audience and drives engagement"},
+                {"S": "Managing sports events and conducting market research"}
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "education": {
+      "L": [
+        {
+          "M": {
+            "institution": {"S": "Daystar University"},
+            "area": {"S": "Information Technology"},
+            "studyType": {"S": "Bachelor"},
+            "startDate": {"S": "2019-01"},
+            "endDate": {"S": "2021-10"}
+          }
+        }
+      ]
+    },
+    "certificates": {
+      "L": [
+        {
+          "M": {
+            "name": {"S": "ALX AICE"},
+            "issuer": {"S": "ALX"}
+          }
+        }
+      ]
+    },
+    "skills": {
+      "L": [
+        {
+          "M": {
+            "name": {"S": "Web Development"},
+            "level": {"S": "intermediary"},
+            "keywords": {
+              "L": [
+                {"S": "HTML"},
+                {"S": "CSS"},
+                {"S": "JavaScript"}
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
